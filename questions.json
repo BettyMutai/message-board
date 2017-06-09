@@ -1,14 +1,17 @@
 { "questions": [{
   "question": "Why are cars so expensive?",
   "author": "Chris Class",
-  "additional": "I have been trying to get a car but i can't afford any so far"
+  "image": "http://pic.pimg.tw/littlenine1221/1422622354-319428916_n.jpg",
+  "additional": "I have been trying to get a car but i can't afford any so far."
 }, {
   "question": "Is it advisable to drink contaminated water?",
   "author": "Someone Worried",
-  "additional": "I drank some water at school and i'm worried because they announced its contaminated"
+  "image": "http://pic.pimg.tw/littlenine1221/1422622354-319428916_n.jpg",
+  "additional": "I drank some water at school and i'm worried because they announced its contaminated."
 }, {
   "question": "Can anyone learn to code?",
   "author": "Aspiring Programmer",
-  "additional": "I want to learn to code but i have no background whatsoever just how to use a computer"
-}]
+  "image": "http://pic.pimg.tw/littlenine1221/1422622354-319428916_n.jpg",
+  "additional": "I want to learn to code but i have no background whatsoever just how to use a computer."
+  }]
 }
