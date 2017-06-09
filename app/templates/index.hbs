@@ -4,6 +4,6 @@ Post any question and get help answering from users of our Question & Answer.
 
 <ul>
   {{#each model as |question|}}
-    <li>{{question.question}} {{question.author}} {{question.additional}}</li>
+    {{question-tile question=question}}
   {{/each}}
 </ul>
