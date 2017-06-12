@@ -1,10 +1,8 @@
 <li>
-  {{question.question}} by {{question.author}}
+  {{#link-to 'question' question.id}}{{question.question}} by {{question.author}}{{/link-to}}
   {{#if isImageShowing}}
-    <p><img src={{question.image}} alt={{question.additional}} {{action 'imageHide'}}</p>
+    <p><img src={{question.image}} alt={{question.additional}} {{action 'imageHide'}}></p>
   {{else}}
     <button {{action 'imageShow'}}>Additional Information</button>
   {{/if}}
-  {{update-question question=question update="update"}}
-  <button {{action 'delete' question}}>Delete Question</button>
 </li>
