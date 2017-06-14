@@ -1,5 +1,14 @@
-{{question.question}} by {{question.author}}
+<h3><b>{{question.question}} by {{question.author}}</b></h3>
 <br>
-<p><img src={{question.image}} alt={{question.additional}}></p>
+<p>{{question.additional}}</p>
+<p><img src={{question.image}}></p>
+
+
+<h3>Answers</h3>
+<ul>
+  {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
+  {{/each}}
+</ul>
 
 <button {{action 'delete' question}}>Delete</button>
