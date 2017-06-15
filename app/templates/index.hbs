@@ -3,7 +3,7 @@ Post any question and get help answering from users of our Question & Answer.
 
 <ul>
   {{#each model.questions as |question|}}
-    {{question-tile question=question}}
+    {{question-popularity question}}{{question-tile question=question}}
   {{/each}}
 </ul>
 
