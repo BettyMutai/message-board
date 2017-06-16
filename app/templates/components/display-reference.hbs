@@ -1,3 +1,4 @@
 {{#each myReference.answers as |answer|}}
-  {{answer.content}} -- {{answer.author}}
+  {{answer.author}} -- {{answer.content}}
+  <button {{action "empty" answer}}>Empty Reference</button>
 {{/each}}

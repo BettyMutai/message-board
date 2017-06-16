@@ -5,10 +5,10 @@ export default Ember.Component.extend({
    return this.get('answer.author') + ' - ' + this.get('answer.content');
  }),
 
-  myReference: Ember.inject.service(),
-  
-  actions: {
-    addToReference(answer) {
+ myReference: Ember.inject.service(),
+
+ actions: {
+   addToReference(answer) {
       this.get('myReference').add(answer);
     },
    delete(answer) {
