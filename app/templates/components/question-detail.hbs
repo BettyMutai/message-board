@@ -1,4 +1,4 @@
-<h3><b>{{question.question}} by {{question.author}}</b></h3>
+<h3><b>{{question.query}} by {{question.author}}</b></h3>
 <br>
 <p>{{question.additional}}</p>
 <p><img src={{question.image}}></p>
@@ -11,4 +11,4 @@
   {{/each}}
 </ul>
 
-<button {{action 'delete' question}}>Delete</button>
+<button {{action 'delete' question}}>Delete Question</button>

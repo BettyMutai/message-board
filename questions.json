@@ -1,15 +1,15 @@
 { "questions": [{
-  "question": "Why are cars so expensive?",
+  "query": "Why are cars so expensive?",
   "author": "Chris Class",
   "image": "http://pic.pimg.tw/littlenine1221/1422622354-319428916_n.jpg",
   "additional": "I have been trying to get a car but i can't afford any so far."
 }, {
-  "question": "Is it advisable to drink contaminated water?",
+  "query": "Is it advisable to drink contaminated water?",
   "author": "Someone Worried",
   "image": "http://pic.pimg.tw/littlenine1221/1422622354-319428916_n.jpg",
   "additional": "I drank some water at school and i'm worried because they announced its contaminated."
 }, {
-  "question": "Can anyone learn to code?",
+  "query": "Can anyone learn to code?",
   "author": "Aspiring Programmer",
   "image": "http://pic.pimg.tw/littlenine1221/1422622354-319428916_n.jpg",
   "additional": "I want to learn to code but i have no background whatsoever just how to use a computer."
